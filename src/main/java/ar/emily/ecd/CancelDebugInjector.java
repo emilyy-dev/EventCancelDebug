@@ -157,7 +157,10 @@ abstract class CancelDebugInjector {
       } catch (final Throwable ex) {
         logger.warn("An error occurred trying to load altered version of " + event, ex);
         if (!config.getBoolean("inject-during-bootstrap")) {
-          logger.warn("This problem *might* be resolvable by setting to true the hidden setting `inject-during-bootstrap`");
+          logger.warn(
+              "This problem *might* be resolvable by setting to true the hidden setting " +
+              "`inject-during-bootstrap`, but no guarantees are made"
+          );
         }
       }
     }
