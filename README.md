@@ -2,7 +2,7 @@ TODO readme.
 
 See [default config](https://github.com/emilyy-dev/EventCancelDebug/blob/main/src/main/resources/config.yml).
 
-Download on [Hangar]().
+Download on [Hangar](https://hangar.papermc.io/Emily/EventCancelDebug).
 
 The individual parts of this program are
 [licensed under the MIT (Expat) license](https://github.com/emilyy-dev/EventCancelDebug/blob/main/LICENSES).
