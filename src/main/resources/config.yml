@@ -1,0 +1,4 @@
+print-stack-traces: true
+events:
+#  - org.bukkit.event.block.BlockBreakEvent
+#  - io.papermc.paper.event.player.AbstractChatEvent

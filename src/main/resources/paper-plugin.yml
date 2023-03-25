@@ -1,0 +1,6 @@
+name: 'EventCancelDebug'
+version: '1.0'
+main: 'ar.emily.ecd.CancelDebugPlugin'
+api-version: '1.19'
+loader: 'ar.emily.ecd.CancelDebugLoader'
+bootstrapper: 'ar.emily.ecd.CancelDebugBootstrap'
