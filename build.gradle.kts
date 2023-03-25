@@ -35,6 +35,9 @@ tasks {
 
   jar {
     inputs.files(bundle)
-    metaInf.from(bundle).into("dependencies")
+    metaInf {
+      from(bundle).into("dependencies")
+      from(file("LICENSES"))
+    }
   }
 }
